@@ -1,16 +1,37 @@
-# Node rules:
-## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+# === Python cache ===
+__pycache__/
+*.py[cod]
+*.pyo
 
-## Dependency directory
-## Commenting this out is preferred by some people, see
-## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
-node_modules
+# === Virtual environment ===
+.env
+.venv/
+env/
+venv/
 
-# Book build output
-_book
+# === Jupyter Notebook checkpoints ===
+.ipynb_checkpoints/
 
-# eBook build output
-*.epub
-*.mobi
+# === Model files ===
+*.pt
+*.pth
+models/
+
+# === Log files ===
+*.log
+
+# === Output images and plots ===
+*.png
+*.jpg
+*.jpeg
+*.svg
 *.pdf
+
+# === Simulation and graph data ===
+*.csv
+data/
+graphs/
+
+# === System files ===
+.DS_Store
+Thumbs.db
